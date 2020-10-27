@@ -1,0 +1,8 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header li {
+    display: inline-block;
+    font-weight: 600;
+}
