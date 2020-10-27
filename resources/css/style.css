@@ -1,8 +1,93 @@
-body {
-    font-family: 'Raleway', sans-serif;
-}
-
-.header li {
-    display: inline-block;
-    font-weight: 600;
-}
+            body {
+                font-family: 'Raleway', sans-serif;
+            }
+            
+            .header li {
+                display: inline-block;
+                font-weight: 600;
+                margin: 5px;
+            }
+            /*Search section*/
+            
+            #search {
+                border: 1px solid #f2f2f2;
+                border-radius: 15px;
+                padding: 10px 15px 10px 20px;
+                margin: 10px;
+                font-family: "Raleway";
+                font-weight: 700;
+            }
+            /*Filter Section*/
+            
+            .low {
+                border: 2px solid #f2f2f2;
+                border-radius: 15px;
+                text-align: right;
+                display: inline-block;
+                padding: 8px 15px 8px 20px;
+                margin: 10px;
+                font-weight: 700;
+            }
+            
+            .romantic {
+                border: 2px solid #f2f2f2;
+                border-radius: 50px;
+                display: inline-block;
+                padding: 8px 15px 8px 20px;
+                margin: 10px;
+                font-weight: 700;
+                text-align: right;
+            }
+            
+            .family {
+                border: 2px solid #f2f2f2;
+                border-radius: 50px;
+                display: inline-block;
+                padding: 8px 15px 8px 20px;
+                margin: 10px;
+                font-weight: 700;
+                text-align: right;
+            }
+            
+            .pets {
+                border: 2px solid #f2f2f2;
+                border-radius: 50px;
+                display: inline-block;
+                padding: 8px 15px 8px 20px;
+                margin: 10px;
+                font-weight: 700;
+                text-align: right;
+            }
+            /*Most Popular Section*/
+            
+            .popular {}
+            
+            .sunhotel {
+                border: 2px solid #f2f2f2;
+                border-radius: 50px;
+                display: inline-block;
+                padding: 50px 150px 50px 20px;
+                margin: 10px;
+                font-weight: 700;
+                text-align: right;
+            }
+            
+            .bednbreakfast {
+                border: 2px solid #f2f2f2;
+                border-radius: 50px;
+                display: inline-block;
+                padding: 50px 150px 50px 20px;
+                margin: 10px;
+                font-weight: 700;
+                text-align: right;
+            }
+            
+            .blanchotel {
+                border: 2px solid #f2f2f2;
+                border-radius: 50px;
+                display: inline-block;
+                padding: 50px 150px 50px 20px;
+                margin: 10px;
+                font-weight: 700;
+                text-align: right;
+            }
