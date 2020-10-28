@@ -5,7 +5,7 @@
             .header li {
                 display: inline-block;
                 font-weight: 600;
-                margin: 5px;
+                margin: 5px auto;
             }
             /*Search section*/
             
@@ -13,81 +13,45 @@
                 border: 1px solid #f2f2f2;
                 border-radius: 15px;
                 padding: 10px 15px 10px 20px;
-                margin: 10px;
+                margin: 10px auto;
                 font-family: "Raleway";
                 font-weight: 700;
             }
             /*Filter Section*/
             
-            .low {
+            .options {
                 border: 2px solid #f2f2f2;
-                border-radius: 15px;
+                border-radius: 50px;
                 text-align: right;
                 display: inline-block;
                 padding: 8px 15px 8px 20px;
-                margin: 10px;
+                margin: 2% auto;
                 font-weight: 700;
             }
             
-            .romantic {
-                border: 2px solid #f2f2f2;
-                border-radius: 50px;
-                display: inline-block;
-                padding: 8px 15px 8px 20px;
-                margin: 10px;
-                font-weight: 700;
-                text-align: right;
-            }
+            .low {}
             
-            .family {
-                border: 2px solid #f2f2f2;
-                border-radius: 50px;
-                display: inline-block;
-                padding: 8px 15px 8px 20px;
-                margin: 10px;
-                font-weight: 700;
-                text-align: right;
-            }
+            .romantic {}
             
-            .pets {
-                border: 2px solid #f2f2f2;
-                border-radius: 50px;
-                display: inline-block;
-                padding: 8px 15px 8px 20px;
-                margin: 10px;
-                font-weight: 700;
-                text-align: right;
-            }
+            .family {}
+            
+            .pets {}
             /*Most Popular Section*/
             
             .popular {}
             
-            .sunhotel {
-                border: 2px solid #f2f2f2;
-                border-radius: 50px;
-                display: inline-block;
-                padding: 50px 150px 50px 20px;
-                margin: 10px;
-                font-weight: 700;
-                text-align: right;
+            .popcards {
+                border-radius: 20px;
+                border: 3px solid #f2f2f2;
+                padding: 2%;
+                width: 20%;
+                margin: 2% auto;
+                text-align: justify;
             }
             
-            .bednbreakfast {
-                border: 2px solid #f2f2f2;
-                border-radius: 50px;
-                display: inline-block;
-                padding: 50px 150px 50px 20px;
-                margin: 10px;
-                font-weight: 700;
-                text-align: right;
-            }
+            .sunhotel {}
             
-            .blanchotel {
-                border: 2px solid #f2f2f2;
-                border-radius: 50px;
-                display: inline-block;
-                padding: 50px 150px 50px 20px;
-                margin: 10px;
-                font-weight: 700;
-                text-align: right;
-            }
+            .bednbreakfast {}
+            
+            .blanchotel {}
+            /*Accommodations*/
