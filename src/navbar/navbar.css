@@ -4,16 +4,19 @@
     padding: 0;
 }
 
-li,
-a {
-    text-decoration: none;
-}
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px;
+}
+
+
+/* Navigation Bar */
+
+li,
+a {
+    text-decoration: none;
 }
 
 .logo {
@@ -31,7 +34,7 @@ header {
 }
 
 .navbar li a:hover {
-    color: black;
+    color: #0065FC;
 }
 
 
@@ -41,6 +44,7 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
+    flex-direction: row-reverse;
 }
 
 
@@ -55,8 +59,20 @@ header {
 
 /* Small screens */
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 480px) {
     .navbar {
-        flex-direction: column;
+        flex-flow: row wrap;
+    }
+    .logo {
+        margin-bottom: 60px;
+    }
+    .cta {
+        margin-left: 60px;
+    }
+    .items {
+        margin-left: px;
+    }
+    .footer {
+        flex-flow: column wrap;
     }
 }
