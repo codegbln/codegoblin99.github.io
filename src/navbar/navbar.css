@@ -10,20 +10,47 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    
 }
 
 .navbar-items li {
     display: inline-block;
     flex-basis: 50%;
+    
 }
+
 
 .navbar li a:hover {
     color: #0065FC;
+    border-bottom: 2px solid #0065FC;
 }
 
+.logo{
+    margin-left: 20px;
+}
+
+.cta{
+   padding-left: 40px;
+}
+
+.item1, .item2{
+    margin-top: 30px;
+    padding-bottom: 10px;
+    
+}
+.item1{
+    padding-left: 30px;
+    
+}
+
+.item2{
+
+}
 
 /* Medium screens */
 
 @media all and (min-width:768px) {}
 
-@media all and (min-width:1024px) {}
+@media all and (min-width:1024px) {
+   
+}
