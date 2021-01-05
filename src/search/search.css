@@ -1,0 +1,38 @@
+#tag-line p {
+    display: flexbox;
+    min-width: 414px;
+
+}
+
+.tag-line-heavy {
+    display: flex;
+    font-weight: 600;
+    font-size: x-large;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+
+}
+
+.tag-line-light {
+    display: block;
+    font-weight: 300;
+    font-size: medium;
+    padding: 0px 20px;
+}
+
+#search{
+    margin: 20px;
+    border-radius: 30%;
+}
+
+.search-location{
+    font-weight: 500;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+input::placeholder { 
+    color: black;
+}
+
