@@ -1,38 +1,76 @@
 .popular{
   background-color: #f2f2f2;
+  padding-top: 20px;
   padding-bottom: 50px;
 }
 
-.popular-heading{
-    display: block;
-    width: 150px;
-    margin-left: 20px;
-    padding-top: 40px;
-    padding-bottom: 30px;
+.pop-heading{
+   margin: 20px; 
 }
 
-.popular-card{
- display: flex;
+.chart{
+
+}
+
+.pop-card{
+ display: block;
  background-color: white;
  border: 5px solid white;
  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 10px;
  border-radius: 20px;
+ flex-direction: row;
  height: 170px;
  margin: 20px 20px -5px 20px;
 }
 
-.popular-card-body{
+.pop-card-body{
+padding: 8px;
 
 }
 
-.popular-card-img-left{
+.pop-card-img-left{
   border-radius: 15px 0px 0px 15px;
   max-width:100%;
-  padding-right: 80px;
+  width: 150px;
   
 }
-.popular-card-img-left.small{
+.pop-card-img-left.small{
 height: 160px;
 object-fit: cover;
 
+}
+.pop-card-heading{
+  color: black;
+  font-weight: 700;
+  margin-top: -160px;
+  margin-left: 160px;
+  
+}
+.pop-card-text{
+  color: black;
+  font-weight: 600;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-left: 160px;
+  
+}
+.pop-card-heading-mh{
+  color: black;
+  font-weight: 700;
+  margin-top: -160px;
+  margin-left: 160px;
+  margin-bottom: 30px;
+ 
+}
+
+.pop-card-rating {
+  color: #0065FC;
+  font-size: 6px;
+  margin-top: 50px;
+  margin-left: 160px;
+  padding-left: 5px;
+}
+
+.rating {
+  color: #F2F2F2;
 }
