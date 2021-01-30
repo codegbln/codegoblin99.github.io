@@ -20,7 +20,13 @@
     padding: 0px 20px;
 }
 
+.location-icon{
+    border: 1px solid #f2f2f2;
+   
+}
 #search{
+    display: flex;
+    flex-direction: row;
     margin: 20px;
     border-radius: 30%;
 }
@@ -28,7 +34,7 @@
 .search-location{
     font-weight: 500;
     padding: 10px;
-    margin-top: 5px;
+   
     margin-left: 5px;
 }
 
@@ -36,3 +42,11 @@ input::placeholder {
     color: black;
 }
 
+.map-icon{
+    display: inline-block;
+ 
+}
+
+.search-icon{
+    display: inline-block;
+}
