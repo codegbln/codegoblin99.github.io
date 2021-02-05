@@ -1,29 +1,26 @@
-.accommodation{
+.accommodation {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.accommodation-heading{
-    margin: 30px 20px 20px;
-    font-size: 23px;
-    font-weight: 600;
+
+.accommodation-heading {
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .accommodation-card {
     display: block;
     border: 5px solid white;
-    box-shadow: rgba(0,0,0, 0.2) 0 3px 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 3px 10px;
     border-radius: 15px;
     flex-direction: column;
     margin: 20px 20px -5px 20px;
-    
 }
-
 
 .accommodation-card-img-top {
     border-radius: 10px 10px 0 0;
     max-width: 100%;
     width: 100%;
-
 }
 
 .accommodation-card-img-top.small {
@@ -44,7 +41,7 @@
     padding-left: 5px;
 }
 
-.accommodation-card-text{
+.accommodation-card-text {
     color: black;
     font-weight: 600;
     font-size: smaller;
@@ -58,11 +55,11 @@
     padding-left: 5px;
 }
 
-.rating{
+.rating {
     color: #F2F2F2;
 }
 
-.show-more{
+.show-more {
     font-weight: 600;
     font-size: large;
     margin: 40px 20px;

@@ -1,19 +1,20 @@
-.footer{
+.footer {
     background: #f2f2f2;
     padding-top: 20px;
     padding-bottom: 15px;
 }
 
-.footer-container{
+.footer-container {
     margin-bottom: 30px;
 }
-.footer-heading{
+
+.footer-heading {
     margin: 25px;
     font-weight: 600;
-   
+
 }
 
-.footer-text{
+.footer-text {
     margin: 10px 25px;
     font-weight: 300;
 }

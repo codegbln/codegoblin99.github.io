@@ -1,36 +1,37 @@
-.filters{
+.filters {
     display: block;
-    margin-bottom: 20px;
-}
-.filter-heading,.filter-item {
-    display: inline-block;
-    
+    margin: 20px 20px 10px 20px ;
 }
 
 .filter-heading {
-    margin: 20px 20px 5px 20px;
-}
-.filter-item{
-    border: 2px solid #f2f2f2;
-    border-radius: 30px;
-    padding: 10px 25px 10px 0px;
-    margin: 10px 5px 1px 17px
+    display: flex;
 }
 
-.filter-text{
-    font-weight: 400;
+.filter-item {
+    display: inline-block;
+    position: relative;
+    padding: 10px 15px 12px 50px;
+    border: 2px solid #f2f2f2;
+    border-radius: 30px;
+    margin: 10px 5px 3px 5px;
 }
 
 
 .filter-icon {
-   background-color: #DEEBFF;
-     border: 2px solid #DEEBFF;
-     border-radius: 100%;
-     color: #0065fc;
-     padding: 9px 11px;
-     margin-right: 5px;
+    position: absolute;
+    left:0;
+    right: 1000;
+    top: 0;
+    bottom: 0;
+    background-color: #DEEBFF;
+    color: #0065fc;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    padding: 20px 20px 20px;
 }
- 
 
 .info {
     margin-top: 30px;
@@ -38,7 +39,7 @@
     margin-right: 20px;
 }
 
-.info-text{
+.info-text {
     display: flex;
     font-weight: 300;
     align-items: center;
@@ -46,17 +47,14 @@
     margin-top: -20px;
     margin-left: 25px;
     margin-right: 20px;
-   
-
 }
 
 .info-icon {
     background-color: white;
     border: 2px solid #f2f2f2;
-    border-radius: 50%;
+    border-radius: 40px;
     color: #0065fc;
     padding: 3px 9px;
     margin-right: 5px;
     margin-left: -10px;
-
 }
