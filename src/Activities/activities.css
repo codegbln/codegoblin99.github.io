@@ -42,3 +42,10 @@
     color: black;
     padding: 10px 0 10px 20px;
 }
+
+
+/* Large Screens */
+
+@media all and (min-width:1024px) {
+    
+}
