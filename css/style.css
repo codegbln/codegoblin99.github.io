@@ -26,6 +26,8 @@ a {
 .navbar {
     display: flexbox;
     padding: 20px 0;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 
@@ -85,7 +87,7 @@ a {
     display: flex;
     font-weight: 600;
     font-size: x-large;
-    padding: 10px 20px;
+    padding: 10px 0px;
     flex-wrap: wrap;
 }
 
@@ -93,7 +95,7 @@ a {
     display: block;
     font-weight: 300;
     font-size: medium;
-    padding: 0px 20px;
+    padding: 5px 0px;
     margin-bottom: 35px;
 }
 
@@ -235,16 +237,20 @@ a {
 }
 
 .pop-heading {
-    margin: 20px 0 5px 20px;
+  
     display: inline-block;
 }
 
-.chart-icon {
-    position: relative;
-    left: 170px;
+.pop-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }
-
-.pop-card {
+.mg-bttm{
+    margin-bottom: 15px;
+}
+.pop-card{
     display: flex;
     background-color: white;
     border: 5px solid white;
@@ -252,7 +258,7 @@ a {
     border-radius: 20px;
     flex-direction: row;
     height: 140px;
-    margin: 20px 20px -5px 20px;
+    
 }
 
 .pop-card-body{
@@ -342,7 +348,7 @@ a {
     box-shadow: rgba(0, 0, 0, 0.2) 0 3px 10px;
     border-radius: 15px;
     flex-direction: column;
-    margin: 20px 20px -5px 20px;
+    
 }
 
 .accommodation-card-img-top {
@@ -413,13 +419,14 @@ a {
     box-shadow: rgba(0, 0, 0, 0.2) 0 3px 10px;
     border-radius: 15px;
     flex-direction: column;
-    margin: 20px;
+   
 }
 .activity-card-col.old-port{
     margin-bottom: 0px;
 }
 .col {
     width: 100%;
+    padding: 0 15px;
 }
 
 .activity-card-img-top {
@@ -705,11 +712,6 @@ a {
         margin-bottom: 0;
     }
 
-    .accommodation-card {
-        margin-bottom: 15px;
-
-    }
-
     .accommodation-card-body {
         background-color: white;
     }
@@ -744,7 +746,7 @@ a {
 
     .col,
     .col-4 {
-        padding: 0 20px;
+        padding: 0 15px;
     }
 
     .col {
@@ -761,10 +763,6 @@ a {
     .row {
         flex-direction: row;
 
-    }
-
-    .mg-bttm {
-        margin-bottom: 30px;
     }
 
     .activity-card-img-top.small.old-port {
