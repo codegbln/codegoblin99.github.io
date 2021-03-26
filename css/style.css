@@ -422,8 +422,12 @@ margin-left: 5px;
 }
 
 .col {
-    width: 100%;
     padding: 0 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0%;
 }
 
 .mg-bttm-20{
@@ -621,8 +625,6 @@ margin-left: 5px;
         flex-direction: column;
         border-radius: 15px;
         justify-items: center;
-        margin-right: 20px;
-
     }
 
     .col-4 {
@@ -633,7 +635,7 @@ margin-left: 5px;
         display: flex;
         flex-direction: row;
         margin-bottom: 15px;
-        width: 350px;
+    
     }
     .pop-card-body {
         padding-left: 10px;
@@ -717,16 +719,20 @@ margin-left: 5px;
         margin: 0;
     }
 
-    .accommodation-card-img-top {
-        width: 220px;
-    }
-
     .show-more {
         margin: 10px 0 30px 40px;
        
     }
 
+    .col-md-4 {
+    flex: 0 0 33.3333333%;
+    max-width: 33.3333333%;
+}
 
+.col-sm-8{
+    flex: 0 0 66.666666%;
+    max-width: 66.66666%;
+}
     /* Activities */
     .activity-heading {
         margin-top: 50px 
@@ -735,6 +741,7 @@ margin-left: 5px;
     .row {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         margin-left: -15px;
         margin-right: -15px;
     }
@@ -744,46 +751,34 @@ margin-left: 5px;
         padding: 0 15px;
     }
 
-    .col {
-        width: 100%;
-    }
+    
 
+    .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 90%;
+}
     .activity-card-col {
         display: flex;
         box-shadow: rgba(0, 0, 0, 0.2) 0 3px 10px;
         border-radius: 15px;
         flex-direction: column;
     }
+    .tall{
+    height: 100%;
+}
 
+.short{
+    min-height: 150px;
+}
     .row {
         flex-direction: row;
 
     }
-
-    .activity-card-img-top.small.old-port {
-        height: 330px;
-        object-position: 70% 0%;
-    }
-
-    .activity-card-img-top.small.pf {
-        height: 160px;
-    }
-
-    .activity-card-img-top.small.f-island {
-        height: 100px;
-    }
-
-    .activity-card-img-top.small.c-n-park {
-        height: 330px;
-    }
-
-    .activity-card-img-top.small.n-dame {
-        height: 130px;
-        object-position: 100% 0%;
-    }
-
-    .activity-card-img-top.small.lp {
-        height: 135px;
+    .mg-bttm-0{
+    margin-bottom: 0;
+}
+    .activity-card-img-top{
+        flex-grow: 1;
     }
 
     /* Footer */
