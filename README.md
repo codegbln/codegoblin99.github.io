@@ -1,4 +1,4 @@
-# codegoblin99.github.io
+# Reservia
 Project 2: Reservia mock-up integration
 
 Objectives:
